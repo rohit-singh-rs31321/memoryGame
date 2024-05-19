@@ -282,10 +282,14 @@ const App: React.FC = () => {
         <div style={{ width: `${(matches / 6) * 100}%` }} />
       </div>
             <img src={backButton} alt="Back Button" className="back-button" onClick={startNewGame}/>
-            <img src={EarnBanner} className='earnBanner' alt="banner"/>
+            
             <div className='banner'><p>Earned</p>
-              <p>{earnedBananas} Banana’s</p></div>
+          
+              <p>{earnedBananas} Banana’s</p>
+              <img src={EarnBanner} className='earnBanner' alt="banner"/>
               <button className="newGame" onClick={startNewGame}>New Game</button>
+              
+              </div>
               <p className='footer'>You've exhausted your tries!</p>
               </div>
           </div>
@@ -299,10 +303,14 @@ const App: React.FC = () => {
         <div style={{ width: `${(matches / 6) * 100}%` }} />
       </div>
             <img src={backButton} alt="Back Button" className="back-button" onClick={startNewGame}/>
-            <img src={EarnBanner} className='earnBanner' alt="banner"/>
+            
             <div className='banner'><p>Earned</p>
-              <p>{earnedBananas} Banana’s</p></div>
-              <button className="newGame" onClick={startNewGame}>New Game</button>
+            
+              <p>{earnedBananas} Banana’s</p>
+              <img src={EarnBanner} className='earnBanner' alt="banner"/>
+              <button className="newGame" onClick={startNewGame}>New Game</button></div>
+
+              
               <p className='footer'>You've matched all the cards!</p>
               </div>
           </div>

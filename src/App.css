@@ -7,7 +7,7 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   padding: 60px;
   /* display: flex;
   flex-direction: column;
@@ -132,8 +132,8 @@ button:hover {
   position: absolute;
   width: 477.25px;
   height: 102px;
-  top: 207px;
-  left: 800px;
+  top: 13rem;
+  right: 10rem;
   z-index: 1;
 }
 
@@ -173,8 +173,8 @@ button:hover {
   position: absolute;
   width: 446px;
 height: 430.91px;
-top: 276px;
-left: 515px;
+bottom: 3rem;
+left: 35%;
 
 
 
@@ -184,8 +184,8 @@ left: 515px;
   position: absolute;
   width: 515.97px;
   height: 219.91px;
-  top: 178px;
-  right: 170px;
+  top: 11rem;
+  right: 11rem;
 }
 
 .instructions {
@@ -269,7 +269,24 @@ left: 515px;
   top: 250px;
   left: 42%;
 }
-.banner p{
+.banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner p:nth-child(1){
+  top:0;
+  position: absolute;
+  color: #ffffff;
+  font-family: Nunito;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 55.38px;
+}
+.banner p:nth-child(2){
+  top:30px;
+  position: absolute;
   color: #ffffff;
   font-family: Nunito;
   font-size: 40px;
@@ -277,18 +294,14 @@ left: 515px;
   line-height: 55.38px;
 }
 .newGame{
-  position: absolute;
-  top:580px;
-  padding: 28px 105px;
-  left: 37%;
+ position:absolute;
+ bottom:0;
+  padding: 18px 70px;
   opacity: 0;
 }
 .earnBanner{
-  position: absolute;
-  top: 250px;
-  left: 35%;
-  width: 400px;
-  height: 450px;
+  width: 300px;
+  height: 350px; 
 }
 .footer{
   color: #ffffff;
