@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+
 .App {
   text-align: center;
   background-image: url('./assets/images/bg.png'); 
   background-size: cover;
   background-position: center;
   height: 100vh;
-  width: 100vw;
-  padding: 100px;
+  width: 100%;
+  padding: 60px;
   /* display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,10 +33,11 @@ button:hover {
 .progress-bar {
   width: 60%;
   background-color: #e0e0e0;
-  height: 30px;
+  height: 19px;
   margin: 0;
   margin-left: 20%;
   border-radius: 20px;
+  margin-bottom: 60px;
   overflow: hidden;
 }
 
@@ -131,7 +133,7 @@ button:hover {
   width: 477.25px;
   height: 102px;
   top: 207px;
-  left: 1160px;
+  left: 800px;
   z-index: 1;
 }
 
@@ -147,19 +149,20 @@ button:hover {
 .next-button,
 .yes-button,
 .play-button {
-  position: fixed;
-  right: 61px;
-  bottom: 68px;
-  width: 373px;
-  height: 120.51px;
+  position: absolute;
+  right: 3rem;
+  bottom: 2rem;
+  width: 300px;
+  height: 90.51px;
   cursor: pointer;
 }
 
 .back-button {
-  position: fixed;
-  top: 45px;
-  left: 43px;
-  height: 194px;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  height: 120px;
+  width: 140px;
   padding: 10px 20px;
   font-size: 1rem;
   color: white;
@@ -167,15 +170,18 @@ button:hover {
 }
 
 .characterImage {
-  position: fixed;
-  top: 276px;
-  left: 600px;
-  width: 646px;
-  height: 630.91px;
+  position: absolute;
+  width: 446px;
+height: 430.91px;
+top: 276px;
+left: 515px;
+
+
+
 }
 
 .dialogBox {
-  position: fixed;
+  position: absolute;
   width: 515.97px;
   height: 219.91px;
   top: 178px;
@@ -247,7 +253,7 @@ button:hover {
   position: absolute;
   left: 0;
   top:0;
-  padding-top: 100px;
+  padding-top: 60px;
   background: linear-gradient(
     rgba(0, 0, 0, 0.444), 
     rgba(0, 0, 0, 0.7)
@@ -266,24 +272,23 @@ button:hover {
 .banner p{
   color: #ffffff;
   font-family: Nunito;
-  font-size: 56px;
+  font-size: 40px;
   font-weight: 800;
-  line-height: 76.38px;
+  line-height: 55.38px;
 }
 .newGame{
-  position: fixed;
-  top:700px;
-  padding: 38px 140px;
-  left: 39%;
+  position: absolute;
+  top:580px;
+  padding: 28px 105px;
+  left: 37%;
   opacity: 0;
-  
 }
 .earnBanner{
   position: absolute;
   top: 250px;
   left: 35%;
-  width: 550px;
-  height: 600px;
+  width: 400px;
+  height: 450px;
 }
 .footer{
   color: #ffffff;

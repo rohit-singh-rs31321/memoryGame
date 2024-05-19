@@ -4,38 +4,38 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 351px;
-   height: 438px;
+    width: 281px;
+   height: 368px;
    padding: 20px;
    background-color: white;
     border-radius: 69px;
     text-align: center;
-    margin: 40px 60px;
+    margin: -30px 40px;
 }
 img{
-    width: 200px;
-    height: 250px;
+    width: 180px;
+    height: 220px;
 }
 h2{
     font-family: Nunito;
     color:#11AEC6;
   font-weight: 800;
-  line-height: 50.27px;
-    font-size: 40px;
+  line-height: 40.27px;
+    font-size: 30px;
     width: 240px; 
 }
 p{
     font-family: Nunito;
   font-weight: 800;
-  line-height: 50.27px;
+  line-height: 30.27px;
     font-size: 24px;
     color: #A6C930;
 }
 .tag{
     position: absolute;
-    top: 250px;
+    top: 200px;
     left: 0;
-    padding: 5px 15px;
+    padding:0 8px;
     color: aliceblue;
     font-size: 20px;
     font-family: Nunito;
