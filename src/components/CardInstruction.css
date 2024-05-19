@@ -1,0 +1,47 @@
+.instructionCard{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 351px;
+   height: 438px;
+   padding: 20px;
+   background-color: white;
+    border-radius: 69px;
+    text-align: center;
+    margin: 40px 60px;
+}
+img{
+    width: 200px;
+    height: 250px;
+}
+h2{
+    font-family: Nunito;
+    color:#11AEC6;
+  font-weight: 800;
+  line-height: 50.27px;
+    font-size: 40px;
+    width: 240px; 
+}
+p{
+    font-family: Nunito;
+  font-weight: 800;
+  line-height: 50.27px;
+    font-size: 24px;
+    color: #A6C930;
+}
+.tag{
+    position: absolute;
+    top: 250px;
+    left: 0;
+    padding: 5px 15px;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Nunito;
+  font-weight: 800;
+  line-height: 50.27px;
+    background-color: #A6C930;
+    border-radius: 0 10px 10px 0;
+
+}
